@@ -1,0 +1,23 @@
+name: Build & test
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  macos:
+    name: Native macOS build
+    runs-on: macos-15
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Toolchain
+        run: swift --version
+      - name: Test word tracking and voice gating
+        run: swift test
+      - name: Build and validate the app bundle
+        run: ./script/build_and_run.sh --build
+      - name: Check shell syntax
+        run: bash -n script/build_and_run.sh

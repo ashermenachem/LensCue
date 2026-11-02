@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-label="LensCue. Your words. Right by the camera.">
+<defs><radialGradient id="glow"><stop stop-color="#63eed0" stop-opacity=".15"/><stop offset="1" stop-color="#63eed0" stop-opacity="0"/></radialGradient><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101b1b"/><stop offset="1" stop-color="#0b0f13"/></linearGradient></defs>
+<rect width="1200" height="390" rx="24" fill="url(#bg)"/><ellipse cx="1020" cy="90" rx="380" ry="300" fill="url(#glow)"/>
+<g fill="none" stroke="#6aefd2" stroke-width="5" stroke-linecap="round"><path d="M64 88V75Q64 64 75 64H88 M110 64H123Q134 64 134 75V88 M134 110V123Q134 134 123 134H110 M88 134H75Q64 134 64 123V110"/></g>
+<text x="161" y="119" fill="#f2f6f5" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700" letter-spacing="-2">LensCue</text>
+<text x="64" y="213" fill="#f2f6f5" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5">Your words.</text><text x="64" y="269" fill="#6aefd2" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5">Right by the camera.</text>
+<text x="66" y="330" fill="#a0b1ae" font-family="Arial,Helvetica,sans-serif" font-size="18">VOICE FOLLOWING  ·  NATIVE MAC APP  ·  FREE &amp; OPEN SOURCE</text>
+<rect x="812" y="0" width="244" height="214" rx="26" fill="#000"/><rect x="812" width="244" height="28" fill="#000"/>
+<circle cx="934" cy="22" r="5" fill="#152326"/><circle cx="934" cy="22" r="2" fill="#35505b"/>
+<text x="934" y="84" text-anchor="middle" fill="#fff" font-family="monospace" font-size="19">Speak naturally.</text><text x="934" y="118" text-anchor="middle" fill="#7c8483" font-family="monospace" font-size="19">Take your time.</text><text x="934" y="152" text-anchor="middle" fill="#7c8483" font-family="monospace" font-size="19">Stay in the frame.</text><circle cx="934" cy="194" r="3" fill="#6aefd2"/>
+</svg>

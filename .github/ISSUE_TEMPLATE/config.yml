@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and feature ideas
+    url: https://github.com/ashermenachem/LensCue/discussions
+    about: Ask for help, share feedback or discuss a feature.

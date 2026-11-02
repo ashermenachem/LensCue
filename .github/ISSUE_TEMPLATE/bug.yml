@@ -1,0 +1,47 @@
+name: Bug report
+description: Something is not behaving as expected.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Explain what you expected and what happened instead. Avoid private scripts or recordings.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open LensCue…"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: LensCue version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Mac and macOS version
+      placeholder: "MacBook Air M2, macOS 15.6"
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Scrolling mode
+      options:
+        - Follow my words
+        - Voice activity
+        - Auto-scroll
+        - Not related to scrolling
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Extra context
+      description: Screenshots or error text are helpful. Remove personal information first.
