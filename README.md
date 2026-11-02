@@ -2,6 +2,8 @@
 
 <img src="docs/assets/hero.svg" alt="LensCue — Your words. Right by the camera." width="100%" />
 
+**[Visit the LensCue website ↗](https://getlenscue.vercel.app)**
+
 **A small, voice-following teleprompter that connects to your Mac’s notch.**
 
 Read at your own pace. Keep your notes close to the lens. Make space for a natural delivery.
